@@ -1,0 +1,126 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--purple);
+    background-image: url(/src/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-areas: "header header"
+        "hero hero"
+        "footer footer";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: var(--font-body);
+    font-size: 1.6rem;
+    font-weight: 400;
+    overflow-x: hidden;         
+}
+
+.header {
+    grid-area: header;
+}
+
+.header .header-container {
+    min-height: 75px;
+}
+
+.logo {
+    display: inline-block;
+    margin: 4rem 0 0 10rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    grid-area: hero;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 4rem 10rem 2rem;
+}
+
+.mockup {
+    width: min(100%, 75rem);
+    height: auto;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 46rem;
+}
+
+.title {
+    font-family: var(--font-heading);
+    font-size: 4.0rem;
+    font-weight: 600;
+    color: white;
+    line-height: 1.4;
+}
+
+.description {
+    font-family: var(--font-body);
+    color: white;
+    margin: 2rem 0 3rem;
+    line-height: 1.6;
+}
+
+.btn {
+    background-color: white;
+    color: var(--purple);
+    padding: 1.5rem 6.5rem;
+    border-radius: 5rem;
+    font-size: 1.8rem;
+    transition: background-color 0.5s ease-in-out;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.30);
+    min-width: 20rem;
+}
+
+.btn:hover {
+    background-color: var(--magenta);
+    color: white;
+    padding: 1.5rem 6.5rem;
+    border-radius: 5rem;
+    transition: background-color 0.5s ease;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.6rem;
+    padding-right: 10rem;
+    padding-bottom: 4rem;
+}
+
+.fab.fa-facebook-f,
+.fab.fa-twitter,
+.fab.fa-instagram {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 5.6rem;
+    height: 5.6rem;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.fab:hover {
+    color: var(--magenta);
+    border-color: var(--magenta);
+}
