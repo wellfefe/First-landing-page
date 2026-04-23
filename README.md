@@ -39,8 +39,8 @@ Se voce ainda nao adicionou a imagem final do projeto, substitua este caminho de
 
 ## Links
 
-- URL da solucao: [Adicione aqui a URL da sua solucao no Frontend Mentor](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione aqui a URL do projeto publicado](https://your-live-site-url.com)
+- URL da solucao: [Repositório](https://github.com/wellfefe/First-landing-page)
+- URL do site ao vivo: [Site ao vivo](https://wellfefe.github.io/First-landing-page/)
 
 ## Meu processo
 
@@ -105,7 +105,9 @@ O mais importante foi usar essas sugestoes como apoio e sempre validar tudo no l
 
 ## Autor
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- GitHub - [@wellfefe](https://github.com/wellfefe)
+
+- Frontend Mentor - [@wellfefe](https://www.frontendmentor.io/profile/wellfefe)
 
 ## Agradecimentos
 
