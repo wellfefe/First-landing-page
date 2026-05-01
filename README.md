@@ -35,8 +35,6 @@ Os usuarios devem ser capazes de:
 ![layout mobile](design/Screenshot_1.png)
 ![layout desktop](design/Screenshot_2.png)
 
-Se voce ainda nao adicionou a imagem final do projeto, substitua este caminho depois de exportar um screenshot da interface pronta.
-
 ## Links
 
 - URL da solucao: [Repositório](https://github.com/wellfefe/First-landing-page)
